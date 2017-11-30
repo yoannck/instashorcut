@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "instashorcut",
+  "author": "Yoann Chane Kive",
+  "description": "Instagram Shortcut",
+  "version": "1.0.18",
+  "icons": {
+    "19": "icons/Icon-19.png",
+    "38": "icons/Icon-38.png",
+    "48": "icons/Icon-48.png",
+    "128": "icons/Icon-128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*.instagram.com/*"],
+      "css": ["main.css"],
+      "js": ["main.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    "icons/*.png"
+  ],
+  "permissions": [
+    "http://*.instagram.com/*",
+    "https://*.instagram.com/*"
+  ]
+}
