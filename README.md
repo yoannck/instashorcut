@@ -8,7 +8,3 @@ Keyboard Shortcut for Instagram
 * Previous Post -> SHIFT + Z
 * Like the selected post -> SHIFT + A
 * Comment the selected post -> SHIFT + C
-
-## TODO
-
-- Manage Ajax Posts
