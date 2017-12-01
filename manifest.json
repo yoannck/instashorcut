@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
-  "name": "instashorcut",
+  "name": "Instashorcut",
   "author": "Yoann Chane Kive",
-  "description": "Instagram Shortcut",
-  "version": "1.0.18",
+  "description": "Instagram Keyboard Shortcut",
+  "version": "1.1.0",
   "icons": {
     "19": "icons/Icon-19.png",
     "38": "icons/Icon-38.png",
